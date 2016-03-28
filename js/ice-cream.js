@@ -1,5 +1,6 @@
 $(document).ready(function() {
-  var favorites = ["chocolate", "vanilla", "mint", "strawberry"];
+  event.preventDefault();
+  var inputs = ["chocolate", "vanilla", "mint", "strawberry"];
 
   favorites.forEach(function(favorite) {
     $("#list").append("<li>" + favorite + "</li>");
